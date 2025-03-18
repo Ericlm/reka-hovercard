@@ -1,9 +1,13 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
+
+import { HoverCard } from 'reka-ui/namespaced';
 </script>
 
 <template>
+  <HoverCard.Root default-open></HoverCard.Root>
+
   <header>
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
 
